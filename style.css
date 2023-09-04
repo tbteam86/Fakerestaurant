@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: dimgrey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+    padding: 10px 0; /* Add padding to the navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the navbar items */
+}
+
+.navbar li {
+    margin: 0 20px; /* Adjust spacing between navbar items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Change the text color to your preference */
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    
+    text-align: center;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.dish {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.dish img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: #FF5733;
+}
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+  </style>
+  <title>login</title>
+</head>
+
+<body>
+<div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="button" onclick="checkLogin()">Login</button>
+        </form>
+    </div>
+  
+  
+<script>
+  // script.js
+function checkLogin() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Check if the username and password match your criteria (e.g., hardcoded values)
+    if (username === "Admin" && password === "admin06") {
+        // Redirect to the main web page (replace "main.html" with your main page URL)
+        window.location.href = "index.html";
+    } else {
+        alert("Invalid username or password. Please try again.");
+    }
+}
+
+  
+</script>
+</body>
+
+</html>

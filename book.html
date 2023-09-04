@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+      <nav class="navbar">
+        <ul>
+            <li><a href="login.html">logout</a></li>
+            <li><a href="/book/book.html">book</a></li>
+            <li><a href="index.html">menu</a></li>
+        </ul>
+    </nav>
+        <h1>Restaurant Booking</h1>
+
+    <section class="booking-form">
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" required>
+
+            <button type="submit">Book Table</button>
+        </form>
+    </section>
+
+    <section class="confirmation">
+        <p id="confirmation-message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

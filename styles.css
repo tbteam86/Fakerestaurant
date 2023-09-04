@@ -1,0 +1,74 @@
+.navbar {
+    background-color: dimgrey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+    padding: 10px 0; /* Add padding to the navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the navbar items */
+}
+
+.navbar li {
+    margin: 0 20px; /* Adjust spacing between navbar items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Change the text color to your preference */
+    font-weight: bold;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 20px;
+ 
+}
+
+.booking-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.confirmation {
+    text-align: center;
+    display: none;
+    margin-top: 20px;
+}
